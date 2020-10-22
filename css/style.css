@@ -40,6 +40,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  color: var(--color-grey-dark-2);
 }
 
 .container {
@@ -68,4 +69,24 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.search__icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.user-nav__icon {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.user-nav__user-photo {
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 50%;
 }
